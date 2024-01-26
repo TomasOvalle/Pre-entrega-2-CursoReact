@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bakemonogatari 01",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/Bakemonogatari_1_grande_505a0727-a4f0-42ad-a312-d3bfd8418aa5_253x.png?v=1617742073",
+        "descripcion": "Koyomi Araragi rescata a la extraña Hitagi Senjogahara cuando ella cae de lo alto de un edificio. Pero, en vez de darle las gracias a Araragi, Senjogahara le engrapa la boca. Lo que más sorprende a Araragi es que la joven ¡no pesa nada! Ante tal fenómeno, Araragi le ofrece la ayuda de un viejo conocido que posee los conocimientos para devolverle su masa. Así que acuden a Meme Oshino, quien logra descubrir, a través de un complejo ritual, la terrible verdad que encierra el pasado de la atribulada adolescente. ¡Adéntrate en las hipnóticas páginas de Bakemonogatari 1, el nuevo manga que Panini trae para ti!",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Bakemonogatari 03",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/files/S897-FWEBP_5e78d372-a40e-4640-971d-a73b0c74564d_253x.webp?v=1684528835",
+        "descripcion": "¡Una nueva rareza! Mayoi Hachikuji, la niña de primaria que conoció Koyomi Araragi, encontró un caracol perdido que simplemente no puede llegar a su destino. Mi deber es llevarla sana y salva con su mamá . Debe hacerlo antes de que sus sentimientos sean erosionados.",
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "nombre": "Bakemonogatari 04",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/284216_520x520_7d4a33e5-551d-4da3-ae32-c3bfd92fea3d_253x.jpg?v=1632493447",
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "nombre": "Bakemonogatari 05",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/files/7d7f510c5ea84acbbd6b19d4e9d69e8e_253x.jpg?v=1684540199",
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "nombre": "Bakemongatari 06",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/314685_520x520_1114f1d7-5fed-4f69-addf-fa113c6964c2_253x.jpg?v=1635530787",
+        "stock": 10
+    },
+    {
+        "id": 6, 
+        "nombre": "Bakemonogatari 14",
+        "precio": 12990,
+        "editorial": "Panini México",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/MX_Bakemonogatari_14_Jacket_1200_b766ecf1-3c63-46b8-9ac3-12d9b58d4054_253x.png?v=1660667995",
+        "stock": 10
+    },
+    {
+        "id": 7, 
+        "nombre": "Slam Dunk 04",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/slamdunk04_10a0b16f-8623-4f59-b0cb-5f6f6c51f738_253x.jpg?v=1681410872",
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "nombre": "Slam Dunk 07",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/slamd_253x.jpg?v=1640889298",
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "nombre": "Slam Dunk 15",
+        "precio": 13990,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/files/slamdunk15_253x.jpg?v=1683578944",
+        "stock": 10
+    },
+    {
+        "id": 10,
+        "nombre": "Vagabond 01",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/vagabond01_253x.jpg?v=1677761083",
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "nombre": "Vagabond 05",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/files/vagabond05_253x.jpg?v=1683579071",
+        "stock": 10
+    },
+    {
+        "id": 12,
+        "nombre": "Vagabond 09",
+        "precio": 9490,
+        "editorial": "Ivrea Argentina",
+        "categoria": "Manga",
+        "image": "https://clubdelgoblin.com/cdn/shop/files/vagabond09_253x.jpg?v=1688664143",
+        "stock": 10
+    }
+]
