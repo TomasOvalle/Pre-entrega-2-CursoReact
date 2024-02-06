@@ -71,3 +71,18 @@
             font-family: "slabo";
         }
     }
+
+.container-bakemonogatari .div1 .Bakemonogatari img{
+    width: 580px;
+    height: 846px;
+}
+
+.productos-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.productos-container .tarjeta-producto img{
+    width: 253px;
+    height: 353px;
+}

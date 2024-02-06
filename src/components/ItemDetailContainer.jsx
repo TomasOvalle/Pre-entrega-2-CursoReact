@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
             setTimeout(() =>{
                 let producto = arrayProductos.find(item => item.id === parseFloat(id));
                 resolve(producto);
-            }, 2000);
+            }, );
         })
         Promesa.then(data =>{
             setItem(data);

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import "../css/style.css"
+
 
 const Fetch2 = () => {
     const [productos, setProductos] = useState([]);
@@ -23,18 +26,21 @@ const Fetch2 = () => {
   };
 
   return (
-    <div id="productos-container">
+    <div className="productos-container">
       {productos.map((producto) => (
         <div key={producto.id} className="tarjeta-producto">
-          <img src={producto.image} alt={producto.nombre} />
-          <figcaption>{producto.editorial}</figcaption>
-          <figcaption>{producto.nombre}</figcaption>
-          <figcaption>${producto.precio}</figcaption>
+          <Link to={'/item/' + producto.id}><img src={producto.image} alt={producto.nombre} className="img-fluid rounded" /></Link>
+          <figcaption className="editorial figure-caption">{producto.editorial}</figcaption>
+          <figcaption className="titulo figure-caption">{producto.nombre}</figcaption>
+          <figcaption className="precio figure-caption">${producto.precio}</figcaption>
           <button onClick={() => agregarAlCarrito(producto)}>Agregar al carrito</button>
         </div>
       ))}
     </div>
   );
 };
+
+
+
 
 export default Fetch2

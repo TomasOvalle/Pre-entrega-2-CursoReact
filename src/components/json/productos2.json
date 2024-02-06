@@ -1,0 +1,110 @@
+[
+    {
+        "id": 13,
+        "nombre": "5 centímetros por segundo",
+        "precio": 25490,
+        "editorial": "Planeta",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/5centi_1024x1024.jpg?v=1655308533",
+        "stock": 10
+    },
+    {
+        "id": 14,
+        "nombre": "El Lugar que nos Prometimos",
+        "precio": 32990,
+        "editorial": "Planeta",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/ellugar_1024x1024.jpg?v=1655307138",
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "nombre": "Fireworks",
+        "precio": "29990",
+        "editorial": "Planeta",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/firewo_1024x1024.jpg?v=1655307032",
+        "stock": 10
+    },
+    {
+        "id": 16,
+        "nombre": "Goblin Slayer 01",
+        "precio": "17490",
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/goblinslayernovela01_1024x1024.jpg?v=1590609629",
+        "stock": 10
+    },
+    {
+        "id": 17,
+        "nombre": "Goblin Slayer 02",
+        "precio": "17490",
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/goblinslayernovela02_1024x1024.jpg?v=1590609669",
+        "stock": 10
+    },
+    {
+        "id": 18,
+        "nombre": "Goblin Slayer 03",
+        "precio": "17490",
+        "editorial": "Ivrea Argentina",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/goblin_1024x1024.jpg?v=1626452701",
+        "stock": 10
+    },
+    {
+        "id": 19,
+        "nombre": "El Descontrol de Haruhi Suzumiya",
+        "precio": 12490,
+        "editorial": "Ivrea España",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/haruhi_05_descontrol_1024x1024.jpg?v=1639676385",
+        "stock": 10
+    },
+    {
+        "id": 20,
+        "nombre": "El Jardín de las Palabras",
+        "precio": 32990,
+        "editorial": "Planeta",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/jardindelaspala_1024x1024.jpg?v=1655488676",
+        "stock": 10
+    },
+    {
+        "id": 21,
+        "nombre": "Overlord 01: El Rey no Muerto",
+        "precio": 23990,
+        "editorial": "Panini México",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/241949_520x520_2f0c8294-1563-499e-b72d-c4580694ff3c_1024x1024.jpg?v=1643821753",
+        "stock": 10
+    },
+    {
+        "id": 22,
+        "nombre": "Overlord 02: El Guerrero Oscuro",
+        "precio": 23990,
+        "editorial": "Panini México",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/133462_520x520_0a1371c3-99f0-46e9-b8a4-e92640145d23_1024x1024.jpg?v=1643806197",
+        "stock": 10
+    },
+    {
+        "id": 23,
+        "nombre": "Overlord 03: La Valquiria Sangrienta",
+        "precio": 23990,
+        "editorial": "Panini México",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/158032_520x520_84476a36-7859-40b4-acfd-ee57254a2c29_1024x1024.jpg?v=1684517596",
+        "stock": 10
+    },
+    {
+        "id": 24,
+        "nombre": "Overlord 04: Los Heroicos Hombres Lagarto",
+        "precio": 23990,
+        "editorial": "Panini México",
+        "categoria": "Novelas",
+        "image": "https://clubdelgoblin.com/cdn/shop/products/170711_520x520_0666fa69-93bd-4a1e-993f-e1730bbd0fc9_1024x1024.jpg?v=1643806322",
+        "stock": 10
+    }
+    ]
