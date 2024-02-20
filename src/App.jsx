@@ -4,23 +4,27 @@ import Mangas from './components/Mangas'
 import Inicio from './components/Inicio'
 import Novelas from './components/Novelas'
 import ItemDetailContainer from './components/ItemDetailContainer'
-import CartWidget from './components/CartWidget'
 import DetailNovelasContainer from './components/DetailNovelasContainer'
+import CartContextProvider from './context/CartContext'
+import Cart from './components/Cart'
+import Checkout from './components/Checkout'
 
 
 
-function App() {
+
+const App = () => {
   return (
-    <div>
+      <CartContextProvider>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/Mangas/MangasId' element={<Mangas/>} />
           <Route path='/item/:id' element={<ItemDetailContainer /> } />
           <Route path='/item/:id' element={<DetailNovelasContainer />} />
           <Route path='/Novelas/NovelasId' element={<Novelas />} />
-          <Route path='/cart' element={<CartWidget />} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/checkout' element={<Checkout />} />
         </Routes>
-    </div>
+      </CartContextProvider>
   )
 }
 

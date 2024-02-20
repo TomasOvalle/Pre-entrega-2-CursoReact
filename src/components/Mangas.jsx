@@ -1,6 +1,7 @@
 import Banner from "./Banner"
 import Header from "./Header"
 import ItemListContainer from "./ItemListContainer"
+import MangasFirebase from "./MangasFirebase"
 
 
 const Mangas = () => {
@@ -8,7 +9,7 @@ const Mangas = () => {
         <>
         <Header />
         <Banner />
-        <ItemListContainer/>
+        <MangasFirebase />
         </>
     )
 }

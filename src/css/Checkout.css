@@ -1,0 +1,37 @@
+.container h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container .table .nombre{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 55px;
+}
+
+.container .table .precio{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.container .table .cantidad{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.container .table .valorTotal{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.container .sumaTotalProductos {
+    text-align: end;
+}
+
+.Agradecimiento {
+    margin-top: 60px;
+    margin-left: 118px;
+    width: fit-content;
+}
+
+

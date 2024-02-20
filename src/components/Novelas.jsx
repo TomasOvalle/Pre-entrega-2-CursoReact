@@ -1,12 +1,12 @@
 import Header from "./Header"
-import Fetch2 from "./Fetch2"
 import "../css/style.css"
+import NovelasFirebase from "./NovelasFirebase"
 
 const Novelas = () =>{
     return(
         <>
             <Header/>
-            <Fetch2 />
+            <NovelasFirebase />
         </>
     )
 }

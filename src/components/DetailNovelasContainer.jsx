@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import arrayProductos2 from './json/productos2.json'
+//import arrayProductos2 from './json/productos2.json'
 import ItemDetail2 from "./NovelasDetail";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
+import Loading from "./Loading";
+import NovelasDetail from "./NovelasDetail";
 
 
 const DetailNovelasContainer = () =>{
     const [producto, setProducto] = useState([]);
+    const [loading, setLoading] = useState(true);
     const {id} = useParams();
 
-    useEffect (() => {
+/*    useEffect (() => {
         const Promesa = new Promise(resolve => {
             setTimeout(() => {
                 let novelas = arrayProductos2.find(item => item.id === parseFloat(id));
@@ -18,9 +22,23 @@ const DetailNovelasContainer = () =>{
         Promesa.then(data => {
             setProducto(data);
         })
-    }, [id])
+    }, [id])*/
+
+useEffect(() => {
+    const db = getFirestore();
+    const productos = doc(db, "items", id);
+    getDoc(productos).then(resultado => {
+        setLoading(false);
+        setProducto({id:resultado.id, ...resultado.data()})
+    });
+}, [id]);
+
+
+
     return(
-        <ItemDetail2 producto={producto} />
+        <>
+            { loading ? <Loading /> : <NovelasDetail producto={producto} />}
+        </>
     )
 }
 
